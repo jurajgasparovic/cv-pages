@@ -1,0 +1,787 @@
+<!doctype html>
+<html lang="en" data-theme-mode="system">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Juraj Gasparovic — Senior Software Engineer</title>
+    <meta
+            name="description"
+            content="Senior software engineer (Laravel/Vue) designing and evolving production systems with a focus on architecture, data integrity and reliable integrations."/>
+    <meta name="robots" content="index,follow"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:title" content="Juraj Gasparovic — Senior Software Engineer"/>
+    <meta
+            property="og:description"
+            content="Senior software engineer (Laravel/Vue) designing and evolving production systems with a focus on architecture, data integrity and reliable integrations."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://gasparovic.dev"/>
+    <meta property="og:image" content="https://gasparovic.dev/assets/img/og.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="theme-color" content="#0b1220"/>
+    <link rel="canonical" href="https://gasparovic.dev"/>
+
+    <script src="assets/js/theme-bootstrap.js"></script>
+    <link rel="icon" href="/favicon.ico"/>
+  <script type="module" crossorigin src="/cv-pages/assets/index-B3LkKMZ7.js"></script>
+  <link rel="stylesheet" crossorigin href="/cv-pages/assets/index-BQb6nrF-.css">
+</head>
+
+<body
+        class="c-bg-noise c-bg-scan text-ink antialiased selection:bg-acc/30 selection:text-ink"
+>
+
+<a
+        class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:px-3 focus:py-2 focus:rounded-lg focus:bg-surface focus:border focus:border-acc/40"
+        href="#main"
+>
+    Skip to content
+</a>
+
+<header class="max-w-6xl mx-auto px-5 sm:px-6 pt-8 pb-5">
+    <nav class="flex items-center justify-between text-sm text-ink2" aria-label="Main navigation">
+        <p class="font-mono text-acc">juraj@gasparovic.dev:~$</p>
+        <div class="flex items-center gap-3">
+            <div class="hidden sm:flex items-center gap-4">
+                <a class="c-link-underline" href="#whoami">About</a>
+                <a class="c-link-underline" href="#stack">Skills</a>
+                <a class="c-link-underline" href="#impact">Experience</a>
+                <a class="c-link-underline" href="#portfolio">Projects</a>
+                <a class="c-link-underline" href="#contact">Contact</a>
+            </div>
+            <button
+                    id="mobile-menu-toggle"
+                    type="button"
+                    class="c-mobile-menu-toggle sm:hidden c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-1.5 font-mono text-xs text-ink"
+                    aria-expanded="false"
+                    aria-controls="mobile-menu"
+                    aria-label="Toggle navigation menu"
+            >
+                menu
+            </button>
+            <button
+                    id="theme-toggle"
+                    type="button"
+                    class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-1.5 font-mono text-xs text-ink"
+                    aria-label="Toggle color theme"
+            >
+                theme: <span id="theme-label">system</span>
+            </button>
+        </div>
+    </nav>
+
+    <div
+            id="mobile-menu"
+            class="c-mobile-menu sm:hidden hidden mt-3 rounded-xl border border-acc/15 bg-surface/80 px-4 py-3 font-mono text-sm text-ink2"
+            role="navigation"
+            aria-label="Mobile menu"
+    >
+        <div class="flex flex-col gap-2">
+            <a class="c-link-underline" href="#whoami">About</a>
+            <a class="c-link-underline" href="#stack">Skills</a>
+            <a class="c-link-underline" href="#impact">Experience</a>
+            <a class="c-link-underline" href="#portfolio">Projects</a>
+            <a class="c-link-underline" href="#contact">Contact</a>
+        </div>
+    </div>
+</header>
+
+<main id="main" class="max-w-6xl mx-auto px-5 sm:px-6 pb-16">
+    <section
+            class="c-shell rounded-2xl border border-acc/15 bg-surface shadow-soft overflow-hidden"
+            aria-label="Terminal hero section"
+    >
+        <div
+                class="flex items-center justify-between px-4 sm:px-5 py-3 border-b border-acc/10 bg-surface/80"
+        >
+            <div class="flex items-center gap-2">
+                <div
+                        class="c-window-controls inline-flex items-center gap-2"
+                        aria-hidden="true"
+                >
+              <span
+                      class="c-window-controls__dot c-window-controls__dot--red inline-flex h-3 w-3 rounded-full"
+              ></span>
+                    <span
+                            class="c-window-controls__dot c-window-controls__dot--yellow inline-flex h-3 w-3 rounded-full"
+                    ></span>
+                    <span
+                            class="c-window-controls__dot c-window-controls__dot--green inline-flex h-3 w-3 rounded-full"
+                    ></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-4 sm:px-6 py-6 sm:py-7">
+        <section
+                class="grid gap-6 lg:grid-cols-[1.45fr_.55fr] items-start c-reveal"
+                aria-label="Terminal content"
+        >
+                <div>
+                    <div
+                            id="boot-log"
+                            class="font-mono text-xs sm:text-sm text-ink2 leading-6"
+                            aria-hidden="true"
+                    >
+                        <p class="c-boot__line">[ OK ] Initializing kernel modules</p>
+                        <p class="c-boot__line">[ OK ] Starting php-fpm service</p>
+                        <p class="c-boot__line">[ OK ] Starting queue worker</p>
+                        <p class="c-boot__line">[ OK ] Loading app configuration</p>
+                        <p class="c-boot__line text-acc">[ READY ] System online</p>
+                    </div>
+
+                    <div class="mt-5 text-sm sm:text-base font-mono text-ink2">
+                <span class="text-acc">juraj@gasparovic.dev</span
+                ><span class="text-ink2">:~$</span>
+                        <span id="typed-cmd" class="text-ink"></span
+                        ><span
+                            id="typed-caret"
+                            class="c-caret"
+                            aria-hidden="true"
+                    ></span>
+                    </div>
+
+                    <div
+                            id="typed-out"
+                            class="mt-4 font-mono text-sm sm:text-base text-ink2 c-reveal"
+                            aria-live="polite"
+                    >
+                        <p
+                                class="text-2xl sm:text-4xl tracking-tight font-semibold text-ink"
+                        >
+                            Hello, I'm Juraj<span
+                                class="c-name-caret"
+                                aria-hidden="true"
+                        ></span>
+                        </p>
+                        <p class="mt-2 text-ink2">
+                            Senior Software Engineer
+                        </p>
+                        <p class="mt-4 text-ink">
+                            Designing and evolving production systems with a focus on architecture, data integrity and
+                            reliable integrations.
+                        </p>
+
+                        <div class="mt-5 flex flex-wrap gap-3 text-sm">
+                            <a
+                                    class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 text-ink"
+                                    href="#whoami"
+                            >Run Profile</a
+                            >
+                            <a
+                                    class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 text-ink"
+                                    href="#portfolio"
+                            >View Projects</a
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="lg:justify-self-end lg:max-w-75">
+                    <figure
+                            class="rounded-xl border border-acc/15 bg-panel/40 p-3 max-w-55 sm:max-w-65 lg:max-w-75 mx-auto lg:mx-0"
+                    >
+                        <img
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgODAwIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyI+CiAgPHRpdGxlIGlkPSJ0aXRsZSI+SnVyYWogUGxhY2Vob2xkZXIgUG9ydHJhaXQ8L3RpdGxlPgogIDxkZXNjIGlkPSJkZXNjIj5UZWNobmljYWwgc3R5bGUgcGxhY2Vob2xkZXIgcG9ydHJhaXQgY2FyZC48L2Rlc2M+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwYjEyMjAiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1NSUiIHN0b3AtY29sb3I9IiMxMDFhMmUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMGUxODJhIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJnbG93IiBjeD0iNzUlIiBjeT0iMTUlIiByPSI3MCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNjBhNWZhIiBzdG9wLW9wYWNpdHk9IjAuMzUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNjBhNWZhIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgICA8cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjI4IiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHBhdGggZD0iTTI4IDBIMFYyOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjBhNWZhIiBzdHJva2Utb3BhY2l0eT0iMC4xOCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICA8L3BhdHRlcm4+CiAgPC9kZWZzPgoKICA8cmVjdCB3aWR0aD0iNjQwIiBoZWlnaHQ9IjgwMCIgZmlsbD0idXJsKCNiZykiLz4KICA8cmVjdCB3aWR0aD0iNjQwIiBoZWlnaHQ9IjgwMCIgZmlsbD0idXJsKCNnbG93KSIvPgogIDxyZWN0IHdpZHRoPSI2NDAiIGhlaWdodD0iODAwIiBmaWxsPSJ1cmwoI2dyaWQpIiBvcGFjaXR5PSIwLjI0Ii8+CgogIDxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzk0YTNiOCIgc3Ryb2tlLW9wYWNpdHk9IjAuNzgiIHN0cm9rZS13aWR0aD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICA8Y2lyY2xlIGN4PSIzMjAiIGN5PSIyNjAiIHI9IjExMCIvPgogICAgPHBhdGggZD0iTTE0MCA2NDBjMjUtMTMwIDEyMC0yMDAgMTgwLTIwMHMxNTUgNzAgMTgwIDIwMCIvPgogIDwvZz4KCiAgPGcgZmlsbD0iIzYwYTVmYSIgZm9udC1mYW1pbHk9InVpLW1vbm9zcGFjZSwgU0ZNb25vLVJlZ3VsYXIsIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCBtb25vc3BhY2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgPHRleHQgeD0iMzIwIiB5PSI3MTAiIGZvbnQtc2l6ZT0iMzIiIGZvbnQtd2VpZ2h0PSI3MDAiPmp1cmFqQGdhc3Bhcm92aWMuZGV2PC90ZXh0PgogICAgPHRleHQgeD0iMzIwIiB5PSI3NDUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiM5NGEzYjgiPlNlbmlvciBTb2Z0d2FyZSBFbmdpbmVlcjwvdGV4dD4KICA8L2c+Cjwvc3ZnPgo="
+                                alt="Juraj"
+                                loading="lazy"
+                                decoding="async"
+                                class="w-full aspect-4/5 rounded-lg object-cover"
+                        />
+                    </figure>
+                </aside>
+            </section>
+
+            <section class="mt-6 grid gap-4 sm:grid-cols-2 c-reveal">
+                <div
+                        class="rounded-xl border border-acc/15 bg-panel/40 p-4 font-mono text-xs text-ink2 flex h-full flex-col"
+                >
+                    <p class="text-ink mb-2"># engineering.principles</p>
+                    <ul class="mt-2 space-y-1">
+                        <li>- Keep business logic outside controllers</li>
+                        <li>- Prefer clarity over cleverness</li>
+                        <li>- Fix root causes, not symptoms</li>
+                        <li>- Refactor incrementally</li>
+                        <li>- Design for long-term maintainability</li>
+                    </ul>
+                    <div class="mt-auto">
+                        <div class="mt-2 pt-3 border-t border-acc/10">
+                            <p>mode: <span class="text-ink">pragmatic</span></p>
+                            <p>focus: <span class="text-acc">production systems</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                        class="rounded-xl border border-acc/15 bg-panel/40 p-4 font-mono text-xs text-ink2 flex h-full flex-col"
+                >
+                    <p class="text-ink mb-2"># system.architecture</p>
+                    <pre class="c-arch__diagram mt-2 overflow-x-auto"><code>[ User ]
+   │
+   ▼
+[ Vue Frontend ]
+   │  (HTTP / JSON)
+   ▼
+[ Laravel API ]
+   │
+   ├─ OrderService
+   ├─ PaymentService
+   ├─ ActivationService
+   │
+   ▼
+[ MariaDB ]   [ Redis ]</code></pre>
+                    <div class="c-arch__meta mt-auto text-xs">
+                        <div class="mt-2 pt-3 border-t border-acc/10">
+                            <p>status: <span class="text-acc">production</span></p>
+                            <p>uptime: <span class="text-ink">99.99%</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="my-7 border-0 border-t border-acc/10"/>
+
+            <section id="whoami" class="c-reveal" role="region" aria-labelledby="heading-whoami">
+                <h2 id="heading-whoami" class="font-mono text-sm sm:text-base">
+              <span class="text-acc">juraj@gasparovic.dev</span
+              ><span class="text-ink2">:~$</span
+                ><span class="text-ink"> cat about.md</span>
+                </h2>
+                <div
+                        class="mt-4 rounded-xl border border-acc/15 bg-panel/40 p-4 font-mono text-sm leading-[1.65] text-ink2"
+                >
+                    <p class="mt-1">
+                        Building and evolving production web applications with a focus on
+                        clarity, stability, and long-term maintainability.
+                    </p>
+                    <p class="mt-3">
+                        Responsible for backend and database architecture across multiple
+                        internal systems, including large-scale data migrations and
+                        business-critical integrations.
+                    </p>
+                    <p class="mt-3">
+                        Refactoring legacy code, reducing complexity, and designing systems
+                        that remain reliable as business requirements grow.
+                    </p>
+                    <p class="mt-3">
+                        Comfortable owning systems long-term — aligning architecture decisions with operational
+                        realities in production.
+                    </p>
+                </div>
+            </section>
+
+            <hr class="my-7 border-0 border-t border-acc/10"/>
+
+            <section id="stack" class="c-reveal" role="region" aria-labelledby="heading-stack">
+                <h2 id="heading-stack" class="font-mono text-sm sm:text-base">
+              <span class="text-acc">juraj@gasparovic.dev</span
+              ><span class="text-ink2">:~$</span
+                ><span class="text-ink"> stack --list</span>
+                </h2>
+                <div class="mt-4 rounded-xl border border-acc/15 bg-panel/40 p-4" aria-label="Technical skills grid">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        <div>
+                            <p class="font-mono text-xs text-ink2">Backend</p>
+                            <div class="mt-2 flex flex-wrap gap-2">
+                    <span
+                            class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                    ><iconify-icon
+                            icon="simple-icons:php"
+                            width="16"
+                            height="16"
+                            class="text-acc/80"
+                            aria-hidden="true"
+                    ></iconify-icon
+                    >PHP 8.x</span
+                    >
+                                <span
+                                        class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                                ><iconify-icon
+                                        icon="simple-icons:laravel"
+                                        width="16"
+                                        height="16"
+                                        class="text-acc/80"
+                                        aria-hidden="true"
+                                ></iconify-icon
+                                >Laravel</span
+                                >
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-mono text-xs text-ink2">Frontend</p>
+                            <div class="mt-2 flex flex-wrap gap-2">
+                    <span
+                            class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                    ><iconify-icon
+                            icon="simple-icons:vuedotjs"
+                            width="16"
+                            height="16"
+                            class="text-acc/80"
+                            aria-hidden="true"
+                    ></iconify-icon
+                    >Vue.js</span
+                    >
+                                <span
+                                        class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                                ><iconify-icon
+                                        icon="simple-icons:inertia"
+                                        width="16"
+                                        height="16"
+                                        class="text-acc/80"
+                                        aria-hidden="true"
+                                ></iconify-icon
+                                >Inertia</span
+                                >
+                                <span
+                                        class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                                ><iconify-icon
+                                        icon="simple-icons:tailwindcss"
+                                        width="16"
+                                        height="16"
+                                        class="text-acc/80"
+                                        aria-hidden="true"
+                                ></iconify-icon
+                                >Tailwind CSS</span
+                                >
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-mono text-xs text-ink2">Integrations</p>
+                            <div class="mt-2 flex flex-wrap gap-2">
+                    <span
+                            class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                    ><iconify-icon
+                            icon="mdi:api"
+                            width="16"
+                            height="16"
+                            class="text-acc/80"
+                            aria-hidden="true"
+                    ></iconify-icon
+                    >REST API</span
+                    >
+                                <span
+                                        class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                                ><iconify-icon
+                                        icon="mdi:xml"
+                                        width="16"
+                                        height="16"
+                                        class="text-acc/80"
+                                        aria-hidden="true"
+                                ></iconify-icon
+                                >SOAP</span
+                                >
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-mono text-xs text-ink2">Data</p>
+                            <div class="mt-2 flex flex-wrap gap-2">
+                    <span
+                            class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                    ><iconify-icon
+                            icon="simple-icons:mysql"
+                            width="16"
+                            height="16"
+                            class="text-acc/80"
+                            aria-hidden="true"
+                    ></iconify-icon
+                    >MySQL</span
+                    >
+                                <span
+                                        class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                                ><iconify-icon
+                                        icon="simple-icons:mariadb"
+                                        width="16"
+                                        height="16"
+                                        class="text-acc/80"
+                                        aria-hidden="true"
+                                ></iconify-icon
+                                >MariaDB</span
+                                >
+                                <span
+                                        class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                                ><iconify-icon
+                                        icon="simple-icons:redis"
+                                        width="16"
+                                        height="16"
+                                        class="text-acc/80"
+                                        aria-hidden="true"
+                                ></iconify-icon
+                                >Redis(cache, session)</span
+                                >
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-mono text-xs text-ink2">Async / Workers</p>
+                            <div class="mt-2 flex flex-wrap gap-2">
+                                <span
+                                        class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                                ><iconify-icon
+                                        icon="mdi:queue"
+                                        width="16"
+                                        height="16"
+                                        class="text-acc/80"
+                                        aria-hidden="true"
+                                ></iconify-icon
+                                >Laravel Queues</span
+                                >
+                                <span
+                                        class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                                ><iconify-icon
+                                        icon="mdi:view-dashboard-outline"
+                                        width="16"
+                                        height="16"
+                                        class="text-acc/80"
+                                        aria-hidden="true"
+                                ></iconify-icon
+                                >Horizon</span
+                                >
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-mono text-xs text-ink2">Infra / Tooling</p>
+                            <div class="mt-2 flex flex-wrap gap-2">
+                    <span
+                            class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                    ><iconify-icon
+                            icon="simple-icons:docker"
+                            width="16"
+                            height="16"
+                            class="text-acc/80"
+                            aria-hidden="true"
+                    ></iconify-icon
+                    >Docker</span
+                    >
+                                <span
+                                        class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                                ><iconify-icon
+                                        icon="simple-icons:git"
+                                        width="16"
+                                        height="16"
+                                        class="text-acc/80"
+                                        aria-hidden="true"
+                                ></iconify-icon
+                                >Git</span
+                                >
+                                <span
+                                        class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                                ><iconify-icon
+                                        icon="simple-icons:composer"
+                                        width="16"
+                                        height="16"
+                                        class="text-acc/80"
+                                        aria-hidden="true"
+                                ></iconify-icon
+                                >Composer</span
+                                >
+                                <span
+                                        class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                                ><iconify-icon
+                                        icon="simple-icons:npm"
+                                        width="16"
+                                        height="16"
+                                        class="text-acc/80"
+                                        aria-hidden="true"
+                                ></iconify-icon
+                                >npm</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="my-7 border-0 border-t border-acc/10"/>
+
+            <section id="impact" class="c-reveal" role="region" aria-labelledby="heading-impact">
+                <h2 id="heading-impact" class="font-mono text-sm sm:text-base">
+              <span class="text-acc">juraj@gasparovic.dev</span
+              ><span class="text-ink2">:~$</span
+                ><span class="text-ink"> git log --stat --oneline</span>
+                </h2>
+                <div class="c-timeline mt-4 font-mono text-sm text-ink2" role="list" aria-label="Work experience timeline">
+                    <article class="c-timeline__item c-timeline__item--left" role="listitem">
+                        <div class="c-timeline__side">
+                            <div
+                                    class="c-timeline__card rounded-xl border border-acc/15 bg-panel/40 p-4"
+                            >
+                                <div class="c-timeline__card-head">
+                                    <div class="c-timeline__meta text-xs">
+                                        <div class="c-timeline__meta-left">
+                                            <span class="text-ink2">9f3c2d1</span>
+                                            <span class="c-timeline__branch">
+                                              HEAD -> senior (Mar 2025)
+                                            </span>
+                                        </div>
+                                        <p class="c-timeline__date text-ink2">
+                                            Oct 2016 — present
+                                        </p>
+                                    </div>
+                                    <h3 class="mt-2 text-ink">
+                                        Software Engineer @ DIGI Slovakia s.r.o
+                                    </h3>
+                                </div>
+                                <ul class="c-timeline__body space-y-1">
+                                    <li>
+                                        • Worked across internal web applications end-to-end (Laravel/Vue), combining
+                                        feature delivery with long-term system stability.
+                                    </li>
+                                    <li>
+                                        • Stabilized business-critical flows (orders, payments, activation) by
+                                        addressing root causes rather than surface issues.
+                                    </li>
+                                    <li>
+                                        • Planned and executed production-safe schema migrations and structural
+                                        refactoring.
+                                    </li>
+                                    <li>
+                                        • Designed parts of the database architecture and migrated ~300k customers into
+                                        a new CRM structure.
+                                    </li>
+                                    <li>
+                                        • Built and evolved external integrations (REST/SOAP) with focus on reliability
+                                        and maintainability.
+                                    </li>
+                                </ul>
+                                <div class="c-timeline__card-foot">
+                                    <p class="text-xs text-ink2">
+                                        PHP · Laravel · Vue · JavaScript · MariaDB · Redis · Docker
+                                    </p>
+                                    <p class="mt-2 text-xs text-ink2">
+                                        5 files changed &nbsp;
+                                        <span class="text-acc">+318</span> /
+                                        <span class="text-ink2">-74</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="c-timeline__axis" aria-hidden="true">
+                            <span class="c-timeline__dot"></span>
+                        </div>
+
+                        <div class="c-timeline__side"></div>
+                    </article>
+
+                    <article class="c-timeline__item c-timeline__item--right" role="listitem">
+                        <div class="c-timeline__side"></div>
+
+                        <div class="c-timeline__axis" aria-hidden="true">
+                            <span class="c-timeline__dot"></span>
+                        </div>
+
+                        <div class="c-timeline__side">
+                            <div
+                                    class="c-timeline__card rounded-xl border border-acc/15 bg-panel/40 p-4"
+                            >
+                                <div class="c-timeline__card-head">
+                                    <div class="c-timeline__meta text-xs">
+                                        <div class="c-timeline__meta-left">
+                                            <span class="text-ink2">4ab7e90</span>
+                                            <span class="c-timeline__branch"
+                                            >HEAD -&gt; developer</span
+                                            >
+                                        </div>
+                                        <p class="c-timeline__date text-ink2">
+                                            Oct 2015 — sep 2016
+                                        </p>
+                                    </div>
+                                    <h3 class="mt-2 text-ink">
+                                        PHP Developer @ HAMMENDEGS s.r.o
+                                    </h3>
+                                </div>
+                                <ul class="c-timeline__body space-y-1">
+                                    <li>
+                                        • Delivered and maintained features across Nette-based
+                                        applications and WordPress sites.
+                                    </li>
+                                    <li>
+                                        • Built responsive UI components and improved front-end
+                                        consistency across client projects.
+                                    </li>
+                                    <li>
+                                        • Handled bug fixing and production support with a focus
+                                        on stability and reliable releases.
+                                    </li>
+                                    <li>
+                                        • Contributed to ongoing maintenance and technical
+                                        handover documentation.
+                                    </li>
+                                </ul>
+                                <div class="c-timeline__card-foot">
+                                    <p class="text-xs text-ink2">
+                                        PHP · Nette · Bootstrap · JavaScript · jQuery ·
+                                        WordPress
+                                    </p>
+                                    <p class="mt-2 text-xs text-ink2">
+                                        4 files changed &nbsp;
+                                        <span class="text-acc">+172</span> /
+                                        <span class="text-ink2">-41</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="c-timeline__item c-timeline__item--end" role="listitem">
+                        <div class="c-timeline__side"></div>
+                        <div class="c-timeline__axis" aria-hidden="true">
+                            <span class="c-timeline__dot"></span>
+                            <p class="c-timeline__end text-xs text-ink2">
+                                Initial Commit (Hello World)
+                            </p>
+                        </div>
+                        <div class="c-timeline__side"></div>
+                    </article>
+                </div>
+            </section>
+
+            <hr class="my-7 border-0 border-t border-acc/10"/>
+
+            <section id="system-context" class="c-reveal" role="region" aria-labelledby="heading-system-context">
+                <h2 id="heading-system-context" class="font-mono text-sm sm:text-base">
+                    <span class="text-acc">juraj@gasparovic.dev</span>
+                    <span class="text-ink2">:~$</span>
+                    <span class="text-ink"> cat system_context.txt</span>
+                </h2>
+
+                <div class="mt-4 rounded-xl border border-acc/15 bg-panel/40 p-4 font-mono text-sm text-ink2" aria-label="System context information">
+                    <ul class="space-y-1">
+                        <li>- ~300,000 migrated customer records</li>
+                        <li>- Integration-heavy telecom environment (API + file-based exchange)</li>
+                        <li>- Business-critical order and activation workflows</li>
+                        <li>- Async processing with queues and background workers</li>
+                        <li>- Long-term evolution of internal production systems (2016–present)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <hr class="my-7 border-0 border-t border-acc/10"/>
+
+
+            <section id="portfolio" class="c-reveal" role="region" aria-labelledby="heading-portfolio">
+                <h2 id="heading-portfolio" class="font-mono text-sm sm:text-base">
+              <span class="text-acc">juraj@gasparovic.dev</span
+              ><span class="text-ink2">:~$</span
+                ><span class="text-ink"> ls -la ~/projects</span>
+                </h2>
+
+                <div
+                        class="mt-4 flex flex-wrap gap-2"
+                        role="group"
+                        aria-label="Portfolio filters"
+                >
+                    <button
+                            class="c-filter-btn c-chip rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                            data-filter="featured"
+                            aria-pressed="true"
+                    >
+                        featured
+                    </button>
+                    <button
+                            class="c-filter-btn c-chip rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                            data-filter="integrations"
+                            aria-pressed="false"
+                    >
+                        integrations
+                    </button>
+                    <button
+                            class="c-filter-btn c-chip rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                            data-filter="web"
+                            aria-pressed="false"
+                    >
+                        web
+                    </button>
+                    <button
+                            class="c-filter-btn c-chip rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 font-mono text-sm text-ink"
+                            data-filter="archived"
+                            aria-pressed="false"
+                    >
+                        archived
+                    </button>
+                </div>
+
+                <div id="projects-container" class="mt-5 space-y-5" aria-live="polite"></div>
+
+                <p class="mt-4 text-xs font-mono text-ink2">
+                    Some repositories are private due to client ownership.
+                </p>
+            </section>
+
+            <hr class="my-7 border-0 border-t border-acc/10"/>
+
+            <section id="contact" class="c-reveal" role="region" aria-labelledby="heading-contact">
+                <h2 id="heading-contact" class="font-mono text-sm sm:text-base">
+              <span class="text-acc">juraj@gasparovic.dev</span
+              ><span class="text-ink2">:~$</span
+                ><span class="text-ink"> php artisan tinker</span>
+                </h2>
+                <div
+                        class="c-contact-panel mt-4 rounded-xl border border-acc/15 bg-panel/40 p-4 font-mono text-xs sm:text-sm text-ink2"
+                        aria-label="Contact information"
+                >
+                    <p class="text-ink">Psy Shell v0.12.0 (PHP 8.x)</p>
+                    <pre
+                            class="mt-2 whitespace-pre-wrap break-words"
+                            aria-label="Contact data output"
+                    ><code>&gt;&gt;&gt; $contact = Contact::current();
+=&gt; [
+  "status" =&gt; "currently busy",
+  "email" =&gt; "juraj@gasparovic.dev",
+  "github" =&gt; "jurajgasparovic",
+  "linkedin" =&gt; "juraj-gasparovic-949291105",
+  "location" =&gt; "Trnava, Slovakia"
+]</code></pre>
+                    <span id="email" class="sr-only">juraj@gasparovic.dev</span>
+                    <div class="mt-3 flex flex-wrap items-center gap-3">
+                        <button
+                                id="copy-email"
+                                class="c-chip inline-flex items-center gap-2 rounded-xl border border-acc/15 bg-surface/40 px-3 py-2 text-sm text-ink"
+                                type="button"
+                        >
+                            copy email
+                        </button>
+                        <a
+                                class="c-link-underline text-acc"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://github.com/jurajgasparovic"
+                                aria-label="GitHub profile"
+                        >github</a
+                        >
+                        <a
+                                class="c-link-underline text-acc"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.linkedin.com/in/juraj-gasparovic-949291105"
+                                aria-label="LinkedIn profile"
+                        >linkedin</a
+                        >
+                    </div>
+                    <div
+                            id="toast"
+                            class="mt-4 hidden rounded-xl border border-acc/15 bg-surface/50 px-3 py-2 text-sm"
+                            role="status"
+                            aria-live="polite"
+                    >
+                        <span class="text-acc">ok</span> — copied to clipboard
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <footer
+            class="mt-12 border-t border-acc/10 pt-5 text-center text-xs text-ink2"
+    >
+        <div class="space-y-1 font-mono">
+            <p>Juraj Gasparovic | Senior Software Engineer</p>
+            <p class="text-ink2/85">
+                Built with &lt;3 using HTML, Tailwind CSS &amp; TypeScript
+            </p>
+            <p>© <span id="year"></span> gasparovic.dev</p>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
